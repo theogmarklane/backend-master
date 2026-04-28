@@ -43,7 +43,7 @@
         "step": "build"
       }
     ],
-    "startCommand": "node .output/server/index.mjs",
+    "startCommand": "node start.mjs",
     "variables": {
       "CI": "true",
       "NODE_ENV": "production",

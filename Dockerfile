@@ -36,4 +36,4 @@ EXPOSE 3000
 
 # Run migrations and start the server
 # Users MUST provide the real variables via Docker Run / Compose
-CMD ["sh", "-c", "npx prisma migrate deploy && node .output/server/index.mjs"]
+CMD ["sh", "-c", "npx prisma migrate deploy && node start.mjs"]

@@ -5,7 +5,8 @@
     "build": "nitro build",
     "dev": "nitro dev",
     "prepare": "nitro prepare",
-    "preview": "node .output/server/index.mjs"
+    "preview": "node start.mjs",
+    "start": "node start.mjs"
   },
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^8.31.1",
